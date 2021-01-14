@@ -22,4 +22,39 @@ public class Testniuke {
         }
 
     }
+
+    public boolean isUgly(int num) {
+        //丑数就是只包含质因数 2, 3, 5 的正整数。
+
+        if (num <= 0) {
+            return false;
+        }
+        while (true) {
+            if (num % 2 == 0) {
+                num /= 2;
+            } else {
+                break;
+            }
+        }
+        while (true) {
+            if (num % 3 == 0) {
+                num /= 3;
+            } else {
+                break;
+            }
+        }
+        while (true) {
+            if (num % 5 == 0) {
+                num /= 5;
+            } else {
+                break;
+            }
+        }
+        return num == 0;
+
+
+
+    }
+
+
 }
