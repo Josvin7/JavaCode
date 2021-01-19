@@ -13,7 +13,7 @@ public class Interview14 {
         for (int i = 3; i <= n; i++) {
             for (int j = 2; j < i; j++) {
                 // j来遍历 i 之前的基础上
-                dp[i] = Math.max( dp[j]*(i-j), dp[i]);
+                dp[i] = Math.max( Math.max(j*(i-j),dp[i-j]*j), dp[i]);
             }
         }
         return dp[n];
