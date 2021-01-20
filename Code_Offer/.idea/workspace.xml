@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ff17d55-b362-45ae-a929-5b6e0696664f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../WinterVacationHomework/src/leetcode27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WinterVacationHomework/src/leetcode35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode26/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode26/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interview14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interview14.java" afterDir="false" />
-    </list>
+    <list default="true" id="9ff17d55-b362-45ae-a929-5b6e0696664f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +45,8 @@
       <file leaf-file-name="Interview14.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Interview14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="209">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -98,7 +92,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1270" />
     <option name="width" value="1302" />
     <option name="height" value="1532" />
@@ -238,16 +232,15 @@
       <workItem from="1610510717023" duration="8022000" />
       <workItem from="1610775206897" duration="4479000" />
       <workItem from="1610945632744" duration="3764000" />
-      <workItem from="1611032204016" duration="1964000" />
+      <workItem from="1611032204016" duration="2685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48299000" />
+    <option name="totallyTimeSpent" value="49020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -613,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Interview14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="209">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
