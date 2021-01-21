@@ -24,10 +24,10 @@ public class leetcode92 {
             first = first.next;
             second = second.next;
         }*/
-            second.next = reverseHelper(len,first);
+        second.next = reverseHelper(len,first);
 
-        temp2.next = tmp;
-        second.next = temp;
+        temp2.next = second;
+        tmp.next = temp;
         return head;
 
 
@@ -39,7 +39,8 @@ public class leetcode92 {
         if (len == 0) {
             return first;
         }
-        ListNode second = reverseHelper(--len, first.next);
+        ListNode second = new ListNode(0);
+                second.next = reverseHelper(--len, first.next);
         return second.next;
 
     }
