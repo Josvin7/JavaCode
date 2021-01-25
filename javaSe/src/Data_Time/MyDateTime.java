@@ -20,10 +20,10 @@ public class MyDateTime {
     private MyTime time;
 
     public MyDateTime(MyDateTime datetime) {
-       /* this.date = datetime.date;     // TODO: BUG fix
-        this.time = datetime.time;     // TODO: BUG fix*/
+       /*  this.date = datetime.date;     // TODO: BUG fix
+        this.time = datetime.time; */  /*  // TODO: BUG fix*/
 
-        this.date = new MyData(datetime.date);
+       this.date = new MyData(datetime.date);
         this.time = new MyTime(datetime.time);
 
     }
@@ -39,8 +39,8 @@ public class MyDateTime {
     }
 
     public MyDateTime(MyData date) {
-        //this.date = date;   // TODO: BUG fix
-        this.date = new MyData(date);
+        //  this.date = date;   // TODO: BUG fix
+      this.date = new MyData(date);
         this.time = new MyTime(0, 0, 0);
     }
 
