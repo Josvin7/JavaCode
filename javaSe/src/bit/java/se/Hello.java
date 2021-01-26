@@ -62,7 +62,7 @@ public class Hello {
     public static void main(String[] args) {
         String[] aray = {"woshi1", "qsq"};
         // 和 spilt 相反
-        
+
         System.out.println(String.join("+",aray));
     }
 }
