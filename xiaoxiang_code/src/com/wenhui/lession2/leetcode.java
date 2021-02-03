@@ -1,9 +1,11 @@
+package com.wenhui.lession2;
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
- * @ClassName leetcode
+ * @ClassName com.wenhui.lession2.leetcode
  * @Description ：TODO
  * @Author Josvin
  * @Date 2021/02/02/19:22
