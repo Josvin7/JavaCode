@@ -5,7 +5,7 @@ package snake;
  * @Description ：TODO
  * @Author Josvin
  * @Date 2021/02/04/14:08
- */ 
+ */
 public class Point {
     public int x;
     public int y;
