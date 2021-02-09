@@ -26,7 +26,7 @@ public class leetcode90 {
         }
         list.add(nums[i]);
         if (!set.contains(new ArrayList<>(list))) {
-            listList.add(new ArrayList<>());
+            listList.add(new ArrayList<>(list));
             set.add(new ArrayList<>(list));//
         }
         subsetsHelper(i + 1, nums, list,listList, set);
