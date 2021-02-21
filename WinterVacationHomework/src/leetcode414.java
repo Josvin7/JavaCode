@@ -1,6 +1,4 @@
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @ClassName leetcode414
@@ -10,21 +8,27 @@ import java.util.Set;
  */
 public class leetcode414 {
     public static int thirdMax(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-
-        int[] aa = new int[set.size()];
-        for (int i = 0; i < aa.length; i++) {
-           // aa[i] = set.
+        //当父节点的键值总是小于或等于任何一个子节点的键值时为最小堆
+        Queue<Integer> queue = new PriorityQueue<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (queue.size() < 3) {
+                if (!queue.contains(nums[i])) {
+                    queue.offer(nums[i]);
+                }
+            } else if (!queue.contains(nums[i]) && nums[i] > queue.peek()) {
+                queue.offer(nums[i]);
+                queue.poll();
+            }
         }
-        Arrays.sort(aa);
-        if (aa.length < 3) {
-            return aa[0]>aa[1]?aa[0]:aa[1];
+        if (queue.size() == 2) {
+            queue.poll();
+            return queue.poll();
         }
-        return aa[aa.length - 3];
+        return queue.peek();
     }
 
     public static void main(String[] args) {
-        int[] ints = {1, 2, 3};
+        int[] ints = {4, 1, 4,5,6};
         System.out.println(thirdMax(ints));
     }
 }

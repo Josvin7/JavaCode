@@ -13,6 +13,10 @@ import java.util.List;
 /**
  * @ClassName MusicDao
  * @Description ：有关于音乐的数据库操作
+ *
+ *   insert into music(title,singer,time,url,userid) values(?,?,?,?,?)
+ *
+ *
  * @Author Josvin
  * @Date 2021/02/19/12:44
  */
@@ -121,7 +125,7 @@ public class MusicDao {
      * 1、上传到服务器
      * 2、上传到数据库
      */
-    public int Insert(String title, String singer, String time, String url, int userid) {
+    public int insert(String title, String singer, String time, String url, int userid) {
         Connection conn = DBUtils.getConnection();
         PreparedStatement pst=null;
         int number = 0;
