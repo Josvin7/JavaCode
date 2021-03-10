@@ -12,6 +12,13 @@ public class Test {
         System.out.println(myList);
         myList.add(2);
         System.out.println(myList);
+
+
+        MyIterator iterator = myList.iterator();
+        while (iterator.hasNext()) {
+            Integer e = iterator.next();
+            System.out.println(e);
+        }
     }
 
 }

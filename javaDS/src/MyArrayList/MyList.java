@@ -29,7 +29,7 @@ public interface MyList {
 
     boolean isEmpty();
 
-    MyIterator iterator =
+    MyIterator iterator();
 
 
 

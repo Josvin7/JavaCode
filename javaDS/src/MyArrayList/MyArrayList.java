@@ -157,6 +157,11 @@ public class MyArrayList implements MyList {
     }
 
     @Override
+    public MyIterator iterator() {
+        return new MyArrayListIterator(this);
+    }
+
+    @Override
     public String toString() {
        /* return "MyArrayList{" +
                 "array=" + Arrays.toString(array) +
@@ -165,4 +170,6 @@ public class MyArrayList implements MyList {
         Integer[] toshow = Arrays.copyOf(array, size);
         return Arrays.toString(toshow);
     }
+
+
 }
