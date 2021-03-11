@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68cda2fa-a40a-45a9-8fd4-5fcb334ab622" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedListLearn/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListLearn/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArrayList/MyArrayListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArrayList/MyIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/home2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode207.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +19,7 @@
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="344">
               <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
@@ -35,74 +28,30 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="184">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyArrayList.java">
+      <file leaf-file-name="MyLinked.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-end-line="175" />
+            <state relative-caret-position="355">
+              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
-                <element signature="e#3554#3555#0" expanded="true" />
-                <element signature="e#3606#3607#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyList.java">
+      <file leaf-file-name="leetcode207.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode207.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="17" lean-forward="true" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyArrayListIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyArrayListIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" column="13" lean-forward="true" selection-end-line="30" />
-              <folding>
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="17" lean-forward="true" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyArrayList/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/homeWork/home2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="249">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -139,6 +88,8 @@
         <option value="$PROJECT_DIR$/src/LinkedListLearn/Node.java" />
         <option value="$PROJECT_DIR$/src/LinkedListLearn/Demo.java" />
         <option value="$PROJECT_DIR$/src/homeWork/home2.java" />
+        <option value="$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/leetcode207.java" />
       </list>
     </option>
   </component>
@@ -151,11 +102,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1336" />
-    <option name="y" value="340" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1270" />
     <option name="width" value="1302" />
-    <option name="height" value="1026" />
+    <option name="height" value="1532" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,7 +113,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,20 +132,12 @@
               <item name="javaDS" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaDS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="homeWork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedListLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,11 +284,12 @@
       <workItem from="1614951271507" duration="1495000" />
       <workItem from="1615006475556" duration="4540000" />
       <workItem from="1615123946946" duration="19280000" />
+      <workItem from="1615460212926" duration="3973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25315000" />
+    <option name="totallyTimeSpent" value="29288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,11 +301,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.37048665" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -372,9 +317,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17651822" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17894737" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -386,6 +330,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.37048665" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +341,70 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-end-line="175" />
+          <folding>
+            <element signature="e#3554#3555#0" expanded="true" />
+            <element signature="e#3606#3607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="17" lean-forward="true" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyArrayListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" lean-forward="true" selection-end-line="30" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" lean-forward="true" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayList/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeWork/home2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/da1/javaDS0305.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -444,13 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/card/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -499,31 +503,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="25" column="17" lean-forward="true" selection-end-line="38" />
+          <caret line="25" column="17" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-end-line="175" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-end-line="175" />
           <folding>
             <element signature="e#3554#3555#0" expanded="true" />
             <element signature="e#3606#3607#0" expanded="true" />
@@ -534,14 +524,14 @@
     <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="17" lean-forward="true" selection-end-line="13" />
+          <caret line="8" column="17" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyArrayList/MyArrayListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" column="13" lean-forward="true" selection-end-line="30" />
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-end-line="30" />
           <folding>
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
@@ -552,18 +542,46 @@
     <entry file="file://$PROJECT_DIR$/src/MyArrayList/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homeWork/home2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode207.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
