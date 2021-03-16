@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68cda2fa-a40a-45a9-8fd4-5fcb334ab622" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode22.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,7 +36,7 @@
       <file leaf-file-name="MyLinked.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="181">
               <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
                 <element signature="e#334#335#0" expanded="true" />
@@ -47,7 +46,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leetcode207.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leetcode22.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leetcode207.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode207.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
@@ -90,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/homeWork/home2.java" />
         <option value="$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode207.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/leetcode22.java" />
       </list>
     </option>
   </component>
@@ -102,7 +111,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1270" />
     <option name="width" value="1302" />
     <option name="height" value="1532" />
@@ -284,12 +293,12 @@
       <workItem from="1614951271507" duration="1495000" />
       <workItem from="1615006475556" duration="4540000" />
       <workItem from="1615123946946" duration="19280000" />
-      <workItem from="1615460212926" duration="3973000" />
+      <workItem from="1615460212926" duration="7043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29288000" />
+    <option name="totallyTimeSpent" value="32358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,8 +310,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
@@ -553,6 +561,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode207.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -569,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedListLearn/MyLinked.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="181">
           <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="e#334#335#0" expanded="true" />
@@ -578,10 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode207.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="405">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
