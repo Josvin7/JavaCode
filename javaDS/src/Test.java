@@ -9,8 +9,8 @@ import java.util.UUID;
 public class Test {
 
     public static void main(String[] args) {
-        UUID.fromString()
-        System.out.println(UUID.fromString("asd"));
-
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
+        System.out.println(uuid.toString().replace("-",""));
     }
 }
