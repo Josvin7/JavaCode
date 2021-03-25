@@ -102,7 +102,95 @@ public class MyLinkedList {
 
     }
 
+    public int index(String e) {
+        int i = 0;
+        for (Node cur = head; cur != null; cur = cur.next) {
+            if (cur.val.equals(e)) {
+                return i;
+            }
+            i++;
+        }
+        return -1;
+    }
 
+    public int lastIndex(String e) {
+        int i = size - 1;
+        for (Node cur = last; cur != null; cur = cur.prev) {
+            if (cur.val.equals(e)) {
+                return i;
+            }
+            i--;
+        }
+        return -1;
+    }
+
+    public String get(int index) {
+        if (index < 0 || index >= size) {
+            throw new ArrayIndexOutOfBoundsException();
+        }
+        Node cur = head;
+        for (int i = 0; i < index; i++) {
+            cur = cur.next;
+        }
+        String e = cur.val;
+        return e;
+    }
+
+    public String set(int index, String e) {
+        if (index < 0 || index >= size) {
+            throw new ArrayIndexOutOfBoundsException();
+        }
+        Node cur = head;
+        for (int i = 0; i < index; i++) {
+            cur = cur.next;
+        }
+        String oldE = cur.val;
+        cur.val = e;
+        return oldE;
+
+    }
+
+    public boolean remove(String e) {
+        //Node cur = head;
+        for (Node cur = head; cur != null; cur = cur.next) {
+            if (cur.val.equals(e)) {
+                if (cur == head) {
+                    cur.next = head.next;
+                    head.next.prev = null;
+                    head = head.next;
+                } else if (cur == last) {
+                    last = last.prev;
+                    last.next = null;
+                } else {
+                    cur.prev.next = cur.next;
+                    cur.next.prev = cur.prev;
+                }
+
+                size--;
+                return true;
+            }
+
+        }
+        return false;
+
+    }
+
+
+
+    public int size() {
+        return size;
+    }
+
+    public boolean isEmoty() {
+        return size == 0;
+    }
+
+    public void clear() {
+        head = last = null;
+        size = 0;
+
+
+    }
 
 
 
@@ -122,6 +210,10 @@ public class MyLinkedList {
         }
         stringBuilder.append("]");
         return stringBuilder.toString();
+    }
+
+    public MyIterator iterator() {
+        return new MyIterator(head);
     }
 
 }
